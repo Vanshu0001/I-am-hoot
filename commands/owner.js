@@ -34,7 +34,7 @@ module.exports = {
           iconURL: 'https://cdn.discordapp.com/attachments/1190992843779604543/1201128205311033474/download.jpeg?ex=65c8b0d0&is=65b63bd0&hm=b5dffafd93c3883227d9a22349852828d103f619e568f4eb85175668daa1b60c&',
           url: 'https://discord.gg/tTUa9VnWWn'
         })
-            .setDescription(`__**About me**__:\n\n ▶️ Myself Vansh aka Imu. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n YouTube : ❤️ [TonyStarkPlayz](${youtubeLink})\n Instagram : 💙 [Rn not available](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n\n ▶️ Myself Vansh aka Imu-Sama. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n YouTube : ❤️ [TonyStarkPlayz](${youtubeLink})\n Instagram : 💙 [Rn not available](${InstagramLink})`)
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
