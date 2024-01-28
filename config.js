@@ -1,8 +1,8 @@
 module.exports = {
   TOKEN: "",
-  ownerID: ["1004206704994566164", ""],
+  ownerID: ["1150351664180629534", ""],
   botInvite: "",
-  supportServer: "",
+  supportServer: "https://discord.gg/tTUa9VnWWn",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
   status: 'Imu-Sama',
   commandsDir: './commands',
@@ -12,8 +12,8 @@ module.exports = {
 
 
   sponsor: {
-    status: false,
-    url: "https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A",
+    status: true,
+    url: "https://www.youtube.com",
   },
 
   voteManager: {
