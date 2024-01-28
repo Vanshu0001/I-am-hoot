@@ -56,9 +56,9 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1190992843779604543/1201128205311033474/download.jpeg?ex=65c8b0d0&is=65b63bd0&hm=b5dffafd93c3883227d9a22349852828d103f619e568f4eb85175668daa1b60c&')
+       .setImage('https://static.wikia.nocookie.net/onepiece/images/b/b0/Imu_With_Straw_Hat.png/revision/latest?cb=20230522230603')
       const button1 = new ButtonBuilder()
-        .setLabel('ALpha_Not_Working')
+        .setLabel('Google')
         .setURL('google.com')
         .setStyle(ButtonStyle.Link);
 
@@ -69,7 +69,7 @@ module.exports = {
 
       const button3 = new ButtonBuilder()
         .setLabel('Github')
-        .setURL('github.com')
+        .setURL('Github.com')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
