@@ -58,8 +58,8 @@ module.exports = {
         ) 
        .setImage('https://static.wikia.nocookie.net/onepiece/images/b/b0/Imu_With_Straw_Hat.png/revision/latest?cb=20230522230603')
       const button1 = new ButtonBuilder()
-        .setLabel('Google')
-        .setURL('google.com')
+        .setLabel('Youtube')
+        .setURL('https://www.youtube.com')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
@@ -68,8 +68,8 @@ module.exports = {
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('Github')
-        .setURL('Github.com')
+        .setLabel('Alpha')
+        .setURL('https://www.youtube.com')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
