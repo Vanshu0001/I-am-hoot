@@ -17,7 +17,7 @@ const { ApplicationCommandOptionType } = require('discord.js');
 const db = require("../mongoDB");
 
 module.exports = {
-  name: "Imu",
+  name: "Owner",
   description: "Get information about bot owner.",
   permissions: "0x0000000000000800",
   options: [],
